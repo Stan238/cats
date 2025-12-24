@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #1e2d59;
+    font: 36px "Lucida Grande", Helvetica, Arial, sans-serif;
+    color: #d74b4b;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+
+}
+
+#cats {
+    width: 100%;
+    text-align: center;
+}
+
+#catImage {
+    width: 400px;
+    height: 390px;
+}
+
+button {
+    position: absolute;
+    top: 35%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    background: #ece4de;
+
+    height: 390px;
+    width: 40px;
+    opacity: 50%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#buttonPrev {
+    left: 30%;
+    border-radius: 0 20px 20px 0;
+}
+
+#buttonNext {
+    right: 30%;
+    border-radius: 20px 0 0 20px;
+}
