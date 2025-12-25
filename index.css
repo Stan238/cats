@@ -16,22 +16,24 @@ body {
 }
 
 #cats {
-    width: 100%;
+    width: 450px;
+    height: 400px;
     text-align: center;
 }
 
 #catImage {
+    position: absolute;
     width: 400px;
     height: 390px;
 }
 
 button {
-    position: absolute;
-    top: 35%;
+    position: relative;
+    top: -10px;
     padding: 10px;
     margin: 10px;
     font-size: 20px;
-    background: #ece4de;
+    background: #ef7c1a;
 
     height: 390px;
     width: 40px;
@@ -44,11 +46,11 @@ main {
 }
 
 #buttonPrev {
-    left: 30%;
+    right: 10px;
     border-radius: 0 20px 20px 0;
 }
 
 #buttonNext {
-    right: 30%;
+    left: 280px;
     border-radius: 20px 0 0 20px;
 }
